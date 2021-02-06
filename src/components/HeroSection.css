@@ -1,0 +1,105 @@
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.hero-container {
+  padding: 100px 0 20px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.hero-container > img {
+  width: 120px;
+}
+
+.hero-container > h2 {
+  padding: 25px 0;
+  font-size: 1.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: -1px;
+}
+
+.hero-container h2 img {
+  width: 20px;
+}
+
+.hero-container h1 {
+  --offset: 400px;
+  font-size: 5em;
+  letter-spacing: -1px;
+}
+
+.hero-container h1 span {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/spectrum.svg);
+  background-repeat: repeat-x;
+  background-size: 100vw 0.2em;
+  background-position: left bottom 5px;
+  background-position-x: var(--scrollPos);
+}
+
+.hero-container h1 span:nth-of-type(2) {
+  background-position-x: calc(var(--offset) + var(--scrollPos));
+}
+
+/* .hero-container > h1 {
+  color: #000;
+  font-size: 5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: -5px;
+} */
+
+.hero-container > p {
+  margin: 30px 0;
+  color: #000;
+  font-size: 1.2em;
+  text-align: center;
+  line-height: 25px;
+}
+
+.hero-container > p > span {
+  font-weight: bold;
+}
+
+.hero-btns .btn {
+  margin: 6px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+@media screen and (max-width: 960px) {
+  .hero-container > h1 {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .hero-container > p {
+    font-size: 1em;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
