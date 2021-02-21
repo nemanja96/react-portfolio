@@ -1,6 +1,5 @@
 import React from "react";
 import "../App.css";
-import Button from "./Button";
 import "./HeroSection.css";
 
 window.addEventListener("scroll", (e) => {
@@ -26,22 +25,21 @@ function HeroSection() {
         <br />
         <span>at any time.</span>
       </h1>
-
-      {/* <h1>Building digital<br />products, brands and<br />experience.</h1> */}
       <p>
-        a <span>Product Designer</span> and <span>Visual Developer</span> in SF.
-        <br />I specialize in UI/UX Design, Responsive Web Design
+        a <span>Frontend Developer</span> & <span>Wordpress Developer</span>
+        based in Serbia.
+        <br />I specialize in Front End Technologies, Responsive Web Design
         <br />
-        and Visual Development.
+        and Wordpress Development.
       </p>
       <div className="hero-btns">
-        <Button
-          className="btns"
-          buttonStyle="btn--primary"
-          buttonSize="btn--large"
+        <a
+          href="/Nemanja_Radivojevic_Resume.pdf"
+          className="resume-btn"
+          download
         >
-          CONNECT WITH ME
-        </Button>
+          Download Resume
+        </a>
       </div>
     </div>
   );

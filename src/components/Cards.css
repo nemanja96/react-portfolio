@@ -1,10 +1,5 @@
 .cards {
-  padding: 4rem;
-  background: #fff;
-}
-
-h1 {
-  text-align: center;
+  padding: 100px;
 }
 
 .cards_container {
@@ -14,11 +9,6 @@ h1 {
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
-}
-
-.cards_wrapper {
-  position: relative;
-  margin: 50px 0 45px;
 }
 
 .cards_items {
@@ -43,7 +33,7 @@ h1 {
   overflow: hidden;
   text-decoration: none;
 }
-/**/
+
 .cards_item_pic-wrap {
   position: relative;
   width: 100%;
@@ -116,4 +106,16 @@ h1 {
     margin-bottom: 2rem;
   }
 }
-/* NASTAVI */
+
+@media only screen and (max-width: 1024px) {
+  .cards {
+    padding: 0;
+    margin-top: 100px;
+  }
+
+  .cards_item {
+    margin: 0 auto;
+    margin-bottom: 70px;
+    width: 80%;
+  }
+}

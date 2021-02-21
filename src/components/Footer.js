@@ -1,7 +1,5 @@
 import React from "react";
-import Button from "./Button";
 import "./Footer.css";
-import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -13,6 +11,7 @@ function Footer() {
             target="_blank"
             aria-label="Facebook"
             className="social-icon-link facebook"
+            title="Facebook"
           >
             <img src="images/facebook.png" />
           </a>
@@ -20,23 +19,20 @@ function Footer() {
             href="https://www.instagram.com/_grof/"
             target="_blank"
             aria-label="Instagram"
-            className="social-icon-link facebook"
+            className="social-icon-link instagram"
+            title="Instagram"
           >
             <img src="images/instagram.png" />
           </a>
           <a
-            href="https://www.linkedin.com/in/nemanja-radivojevic-30b5a5176/"
+            href="https://github.com/nemanja96"
             target="_blank"
-            aria-label="Twitter"
-            className="social-icon-link facebook"
+            aria-label="Github"
+            className="social-icon-link github"
+            title="Github"
           >
-            <img src="images/linkedin.png" />
+            <img src="images/github.png" />
           </a>
-        </div>
-        <div className="footer-logo">
-          <Link to="/" className="social-logo">
-            <img src="images/email.png" /> <span>hi@nemanja.design</span>
-          </Link>
         </div>
       </div>
     </div>
