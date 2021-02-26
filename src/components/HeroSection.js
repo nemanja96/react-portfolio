@@ -17,20 +17,20 @@ function HeroSection() {
     <div className="hero-container">
       <img src="images/github-projects.png" alt="Author" />
       <h2>
-        Hi, I'm Nemanja <img src="images/hello.png" />
+        Zdravo, Ja sam Nemanja <img src="images/hello.png" />
       </h2>
 
       <h1 aria-label="Rainbows are cool at any time.">
-        <span>Rainbows are cool</span>
+        <span>Duga je lepa</span>
         <br />
-        <span>at any time.</span>
+        <span>u svakom trenutku.</span>
       </h1>
       <p>
-        a <span>Frontend Developer</span> & <span>Wordpress Developer</span>
-        based in Serbia.
-        <br />I specialize in Front End Technologies, Responsive Web Design
+        <span>Frontend Developer</span> & <span>Wordpress Developer </span>
+        iz Loznice.
         <br />
-        and Wordpress Development.
+        Volim da radim u Frontend tehnologijama, Prilagodljivom dizajnu
+        <br />i Wordpress-u.
       </p>
       <div className="hero-btns">
         <a
@@ -38,7 +38,7 @@ function HeroSection() {
           className="resume-btn"
           download
         >
-          Download Resume
+          Preuzmi Rezime
         </a>
       </div>
     </div>

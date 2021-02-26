@@ -11,38 +11,47 @@ function Cards() {
             <CardItem
               src="images/project01.png"
               alt="Simple Website"
-              text="Company website"
-              label="Company"
+              text="Vebsajt namenjen pruzanju usluga izrade vebsajta"
+              label="Kompanija"
               path="https://nemanja96-react-simple-website.netlify.app/"
             />
             <CardItem
-              src="images/project02.png"
-              alt="Web Development Agency"
-              text="Company website for Web Development Agency"
-              label="Company"
-              path="https://nemanja96-project2.netlify.app/"
+              src="images/project05.png"
+              alt="Company website"
+              text="Kompanija koja nudi usluge postavljanja vebsajta na internet, kako bi bio dostupan svima"
+              label="Kompanija"
+              path="https://nemanja96-react-website-t1.netlify.app/"
             />
           </ul>
           <ul className="cards_items">
             <CardItem
+              src="images/project02.png"
+              alt="Web Development Agency"
+              text="Vebsajt za pruzanje usluga grafickog dizajna, veb dizajna, veb razvoja i optimizaciju vebsajta"
+              label="Kompanija"
+              path="https://nemanja96-project2.netlify.app/"
+            />
+            <CardItem
               src="images/project03.png"
               alt="Portfolio"
-              text="Portfolio website for Front End Developer"
+              text="Personalni vebsajt za Front End Developer-a"
               label="Portfolio"
               path="https://nemanja96-project1.netlify.app/"
             />
+          </ul>
+          <ul className="cards_items">
             <CardItem
               src="images/project04.png"
               alt="Weather App"
-              text="Weather app with search bar"
-              label="Weather App"
+              text="Aplikacija za vreme i polje za pretragu zeljene lokacije"
+              label="Aplikacija za vreme"
               path="https://nemanja96-react-weather-app.netlify.app/"
             />
             <CardItem
-              src="images/project05.png"
+              src="images/project06.png"
               alt="Digital Clock"
-              text="Beautiful Digital clock"
-              label="Digital Clock"
+              text="Digitalni sat koji pokazuje dane, sate, minute i sekunde"
+              label="Digitalni sat"
               path="https://nemanja96-react-clock.netlify.app/"
             />
           </ul>
