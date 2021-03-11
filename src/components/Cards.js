@@ -9,16 +9,32 @@ function Cards() {
         <div className="cards_wrapper">
           <ul className="cards_items">
             <CardItem
+              src="images/project07.png"
+              alt="Fast Food Delivery"
+              text="Wordpress"
+              label="Fast Food Delivery"
+              path="http://fastfooddelivery.unaux.com/"
+            />
+            <CardItem
               src="images/project01.png"
               alt="Simple Website"
-              text="Vebsajt namenjen pruzanju usluga izrade vebsajta"
+              text="React, React Hooks, React Router"
               label="Kompanija"
               path="https://nemanja96-react-simple-website.netlify.app/"
+            />
+          </ul>
+          <ul className="cards_items">
+            <CardItem
+              src="images/project08.png"
+              alt="Company"
+              text="Wordpress"
+              label="Company"
+              path="http://fastfooddelivery.unaux.com/"
             />
             <CardItem
               src="images/project05.png"
               alt="Company website"
-              text="Kompanija koja nudi usluge postavljanja vebsajta na internet, kako bi bio dostupan svima"
+              text="React, React Hooks, React Router"
               label="Kompanija"
               path="https://nemanja96-react-website-t1.netlify.app/"
             />
