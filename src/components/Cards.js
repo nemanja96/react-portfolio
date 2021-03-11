@@ -10,16 +10,16 @@ function Cards() {
           <ul className="cards_items">
             <CardItem
               src="images/project07.png"
-              alt="Fast Food Delivery"
-              text="Wordpress"
-              label="Fast Food Delivery"
+              alt="Wordpress"
+              text="Share your love for pizza"
+              label="Wordpress"
               path="http://fastfooddelivery.unaux.com/"
             />
             <CardItem
               src="images/project01.png"
               alt="Simple Website"
-              text="React, React Hooks, React Router"
-              label="Kompanija"
+              text="Where data and creativity come together"
+              label="React"
               path="https://nemanja96-react-simple-website.netlify.app/"
             />
           </ul>
@@ -27,15 +27,15 @@ function Cards() {
             <CardItem
               src="images/project08.png"
               alt="Company"
-              text="Wordpress"
-              label="Company"
-              path="http://fastfooddelivery.unaux.com/"
+              text="PVC i ALU stolarija"
+              label="Wordpress"
+              path="http://pvcstolarijalesnica.unaux.com/"
             />
             <CardItem
               src="images/project05.png"
               alt="Company website"
-              text="React, React Hooks, React Router"
-              label="Kompanija"
+              text="Make your own website come true"
+              label="React"
               path="https://nemanja96-react-website-t1.netlify.app/"
             />
           </ul>
@@ -43,15 +43,15 @@ function Cards() {
             <CardItem
               src="images/project02.png"
               alt="Web Development Agency"
-              text="Vebsajt za pruzanje usluga grafickog dizajna, veb dizajna, veb razvoja i optimizaciju vebsajta"
-              label="Kompanija"
+              text="We believe in the power of great design"
+              label="HTML5, CSS3, JavaScript"
               path="https://nemanja96-project2.netlify.app/"
             />
             <CardItem
               src="images/project03.png"
               alt="Portfolio"
-              text="Personalni vebsajt za Front End Developer-a"
-              label="Portfolio"
+              text="Front end developer portfolio"
+              label="HTML5, CSS3, JavaScript"
               path="https://nemanja96-project1.netlify.app/"
             />
           </ul>
@@ -59,15 +59,15 @@ function Cards() {
             <CardItem
               src="images/project04.png"
               alt="Weather App"
-              text="Aplikacija za vreme i polje za pretragu zeljene lokacije"
-              label="Aplikacija za vreme"
+              text="Vremenska prognoza"
+              label="React"
               path="https://nemanja96-react-weather-app.netlify.app/"
             />
             <CardItem
               src="images/project06.png"
               alt="Digital Clock"
-              text="Digitalni sat koji pokazuje dane, sate, minute i sekunde"
-              label="Digitalni sat"
+              text="Digitalni sat"
+              label="React"
               path="https://nemanja96-react-clock.netlify.app/"
             />
           </ul>

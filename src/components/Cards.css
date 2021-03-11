@@ -17,7 +17,7 @@
 
 .cards_item {
   display: flex;
-  flex: 1;
+  flex: 2;
   margin: 0 1rem;
   border-radius: 10px;
 }
@@ -91,7 +91,7 @@
 
 @media only screen and (min-width: 1200px) {
   .content_blog_container {
-    width: 84%;
+    width: 100%;
   }
 }
 
